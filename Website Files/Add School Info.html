@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/addschool.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div id = "holder">
+        <div id ="header"> </div>
+        <div id = "nav">
+            <nav>
+                <ul>
+                    <li> <a href = "logOut.php">Logout</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div id ="content">
+            <div id="pgHeading"><h1> Add School Info</h1></div>
+            <div id="main">
+                <h2>
+                <form action="schoolEmail.php" method="post">
+                    <label for="email_add"> <h2>School Email Address
+                        </h2></label>
+                    <div id="num">
+                    <input type="email" id ="email" name="email">
+                    </div>
+                    
+                    <div id="passenger">
+                        <h5>Your school email address ends with .edu</h5>
+                    </div>
+                   <div class="left">
+                        <button type="button" onclick="goBack()">Back</button>
+                    </div>
+                    <div class="right">
+                        <button type="submit" onclick="">Submit</button>
+                    </div>
+                </form>
+                </h2>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

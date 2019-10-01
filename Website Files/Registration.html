@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div id = "holder">
+        <div id ="header"> </div>
+        <div id = "nav">
+            <nav>
+                <ul>
+                    <li> <a href ="Login.html">Login</a> </li>
+                    <li> <a href=Registration.html>Register</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div id ="content">
+            <div id="pgHeading"><h1>New User Registration</h1></div>
+            <div id="res_form">
+                <table>
+                     <h2>
+                    <form action="registration.php" method="post">
+                    <label for="usern">Username</label>
+                    <input type="text" id ="usern" name="username">
+                    
+                    <label for="email">Email</label>
+                    <input type="text" id ="email" name="email_address">
+                        
+                    <label for="pass">Password</label>
+                    <input type="password" id ="pass" name="password">
+                    
+                    <label for="con_pass">Confirm Password</label>
+                    <input type="password" id ="con_pass" name="confirm_password">
+                        
+                    <input type="submit" value="Submit">
+                        
+                </form>
+                </h2>
+                </table>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>

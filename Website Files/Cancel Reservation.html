@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/cancel.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div id = "holder">
+        <div id ="header"> </div>
+        <div id = "nav">
+            <nav>
+                <ul>
+                    <li> <a href = "logOut.php">Logout</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div id ="content">
+            <div id="pgHeading"><h1>Cancel Reservation</h1></div>
+            <div id="main">
+                <h2>
+                <form action="cancelReservation2.php" method ="post">
+                    <label for="rid"> <h2>Reservation ID
+                        </h2></label>
+                    <input type="text" id ="rid" name="reservationid">
+                    <div class="right">
+                        <input type="submit" id="searchb" value="Search" onclick="">
+                    </div>
+                   <div class="left">
+                        <button type="back" onclick="goBack()">Back</button>
+                    </div>
+                </form>
+                </h2>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

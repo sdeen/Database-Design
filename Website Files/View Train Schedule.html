@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/viewtrain.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div id = "holder">
+        <div id ="header"> </div>
+        <div id = "nav">
+            <nav>
+                <ul>
+                    <li> <a href = "logOut.php">Logout</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div id ="content">
+            <div id="pgHeading"><h1>View Train Schedule</h1></div>
+            <div id="main">
+                <h2>
+                <form action="viewSchedule.php" method="post">
+                    <label for="trainnum"> <h2>Train Number
+                        </h2></label>
+                    <div id="num">
+                    <input type="search" id ="trainnum" name="trainnumber">
+                    </div>
+                    <input type="submit" value="Submit">      
+                </form>
+                </h2>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

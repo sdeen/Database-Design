@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#holder {
+    width: 980px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    
+}
+#header {
+    height: 76px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    margin-bottom: 12px;
+}
+#nav {
+    height: 60px;
+    background-color: #132865;
+    
+}
+#pgHeading {
+    height: 130px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    margin-left: 70px;
+}
+#res_form {
+    border-radius: 1px;
+    width: 100%;
+    text-align: left;
+    
+}
+table {
+    width: 100%;
+}
+label {
+    margin-left: 20%;
+}
+#submit1{
+    width: 20%;
+    background-color: #132865;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    margin-top: 8%;
+    margin-left: 40%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#submit1:hover {
+    background-color: #ff8500;
+}
+
+#submit2 {
+    width: 20%;
+    background-color: #132865;
+    color: white;
+    float: right;
+    text-align: center;
+    right: 50px;
+    padding: 14px 20px;
+    margin-right: 35%;
+    margin-top: 70%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#submit2:hover {
+    background-color: #ff8500;
+}
+input[type=text], select {
+    width: 60%;
+    padding: 11px 30px;
+    margin: 10px;
+    margin-left: 20%;
+    display: table;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text]:focus {
+    background-color: lightgoldenrodyellow;
+    font-size: 16px;
+}
+.left{
+    position: absolute;
+    float: left;
+    border-right: 2px solid black;
+}
+.right{
+    position: relative;
+    float: right;
+}
+#ctext1{
+    text-align: center;
+}
+#ctext2{
+    text-align: center;
+}
+
+h1 {
+    margin: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    font-weight: bold;
+}
+h2 {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: lighter;
+    color: black;
+}

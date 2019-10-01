@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div id = "holder">
+        <div id ="header"> </div>
+        <div id = "nav">
+            <nav>
+                <ul>
+                     <li> <a href = "logOut.php">Logout</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div id ="content">
+            <div id="pgHeading"><h1>Give Review</h1></div>
+            <div id="res_form">
+                <table>
+                     <h2>
+                    <form action="giveReview.php" method="post">
+                    <label for="tnum">Train Number</label>
+                    <input type="text" id ="usern" name="trainNumber">
+                    
+                    <label for="rate">Rating</label>
+                    <select name="rate">
+                        <option value="Very Good">Very Good</option>
+                        <option value="Good">Good</option>
+                        <option value="Neutral">Neutral</option>
+                        <option value="Bad">Bad</option>
+                        <option value="Very Bad">Very Bad</option>
+                    </select>
+                        
+                    <label for="com">Comment</label>
+                    <input type="text" id ="com" name="comment">
+                        
+                    <input type="submit" value="Submit">
+                        
+                </form>
+                </h2>
+                </table>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>

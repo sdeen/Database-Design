@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/review.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div id = "holder">
+        <div id ="header"> </div>
+        <div id = "nav">
+            <nav>
+                <ul>
+                    <li> <a href = "logOut.php">Logout</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div id ="content">
+            <div id="pgHeading"><h1>View Review</h1></div>
+            <div id="main">
+                <h2>
+                <form action="viewReview.php" method="post">
+                    <label for="trainnum"> <h2>Train Number
+                        </h2></label>
+                    <div id="num">
+                    <input type="text" id ="trainnum" name="trainnumber">
+                    </div>
+                    
+                    <div class="right">
+                        <input type="submit" onclick="" id="nextb" value="Next">
+                    </div>
+                    
+                </form>
+                    
+                    <div class="left">
+                        <button type="button" onclick="goBack()">Back</button>
+                    </div>
+                </h2>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
